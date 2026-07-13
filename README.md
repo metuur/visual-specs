@@ -22,6 +22,16 @@ visual-spec) composes with it via **"&lt;Primary&gt; → Apply Comments"**. See
 
 ## Quick start
 
+```bash
+ npx skills add https://github.com/metuur/visual-specs
+
+#select all the skills to install:
+│  ◻ apply-comments
+│  ◻ current-target
+│  ◻ visual-spec
+
+```
+
 The tool is a single, self-contained command installed globally. The directory
 of specs is the **first argument** — no flags needed.
 
@@ -128,7 +138,13 @@ sub-skills: `current-target` ("change this element") and `apply-comments`
 ("apply my comments"). Make them available once:
 
 ```bash
-visual-spec install-skills          # copies skills to ~/.claude/skills
+ npx skills add https://github.com/metuur/visual-specs
+
+#select all the skills to install:
+│  ◻ apply-comments
+│  ◻ current-target
+│  ◻ visual-spec
+
 ```
 
 The skill self-checks its install: if the `visual-spec` command is missing, it
